@@ -1,0 +1,11 @@
+s.add(root);
+  while (s.isEmpty() == false) {
+   Node x = s.pop();
+   if(x.right!=null) s.add(x.right);
+   if(x.left!=null) s.add(x.left);   
+   System.out.print(" " + x.data);
+  }
+Add the tree to a stack Remove/Pop an element from the stack
+Add the element's right and left child nodes to stack
+Do some processing on the element
+Repeat steps above until Stack is empty
