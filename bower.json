@@ -1,0 +1,23 @@
+{
+  "name": "todo-app",
+  "authors": [
+    "Samuel Ita <samitaconcepts@yahoo.com>"
+  ],
+  "description": "A simple to-do app",
+  "main": "main.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "main.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "bootstrap.css#~2.3.2",
+    "angular": "~1.4.8"
+  }
+}
